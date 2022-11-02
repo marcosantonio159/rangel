@@ -1,0 +1,147 @@
+body{
+    font-family: 'Arial';
+}
+
+.container{
+    width: 1200px;/*largura*/
+    margin: 0px auto;/* 0px parca cima automatico nas laterais*/
+}
+
+.flex{
+    display: flex;
+    flex-direction: row; /* Direção dos box na horizontal */
+}
+
+header .flex{
+    justify-content: space-between;
+}
+
+header{
+    padding: 20px 0px;
+}
+
+nav{
+    background-color: #202020;
+    padding: 10px 0px;
+}
+
+nav .flex{
+    justify-content: space-around;
+}
+
+
+nav a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.carrinho a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #202020;
+    
+}
+.centro {
+   
+   padding: 40px 250px 0px 289px;
+    align-items: center;
+   display: flex;
+   
+}
+
+.centro .produto1 img {
+ width: 500px;
+ height: 500px;
+ border: 1px solid;
+ 
+}
+
+.imagens .img{
+    display: flex;
+}
+
+.imagens .img img{
+    width: 165px;
+    border: 200px;
+    border: 1px solid;
+}
+
+
+
+
+.centro .text span {
+     color: #F45c04;
+    font-size: 18px;
+    
+    
+}
+
+
+.text {
+   
+    text-align: left;
+    padding: 95px;
+    
+}
+
+.text a{
+ color: aliceblue;
+padding: 5px 90px;
+background-color: #F45c04;
+display: inline-flex;
+text-decoration: none;
+text-transform: uppercase;
+font-weight: bold;
+}
+
+.text h2 {
+    font-size: 44px;
+
+}
+
+.text h5{
+    font-size: 18px;
+}
+
+.text h3 {
+    font-size: 22px;
+}
+
+.text b {
+    font-size: 18px;
+}
+
+.avaliação {
+    background-color: #F4F2F0;
+    padding: 40px 250px 0px 289px;
+    margin: 40px 250px 0px 178px;
+    display: flex;
+}
+
+.avaliação .avproduto{
+    font-size: 32px;
+    color: #F45c04;
+}
+
+.avtexto h3{
+    font-size: 24px;
+}
+
+.avtexto h6{
+    font-size: 18px;
+}
+
+.avtexto h4{
+    font-size: 22px;
+}
+
+footer{
+    background-color: #202020;
+}
+
+
+
+
+
